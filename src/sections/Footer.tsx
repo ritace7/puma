@@ -1,4 +1,4 @@
-import footerLogo from "../../public/favicon.ico";
+import footerLogo from "../assets/footerLogo.ico";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => {
@@ -20,7 +20,7 @@ const Footer = () => {
           </p>
           <div className="flex items-center gap-5 mt-8">
               {socialMedia.map((icon)=>(
-                  <div className="flex justify-center items-center w-12 h-12 bg-white rounded-full">
+                  <div key={icon.alt} className="flex justify-center items-center w-12 h-12 bg-white rounded-full">
                     <img 
                       src={icon.src}
                       alt={icon.alt}
