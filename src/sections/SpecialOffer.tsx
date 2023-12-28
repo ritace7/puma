@@ -24,7 +24,7 @@ const SpecialOffer = () => {
         Discover the perfect pair to elevate your every step, all at prices that make your wallet smile.
         </p>
         <div className="mt-11">
-          <Button label="Shop Now" iconUrl={arrowRight}/>
+          <Button label="Shop Now" iconUrl={arrowRight} fullWidth={false}/>
         </div>
       </div>
     </section>
